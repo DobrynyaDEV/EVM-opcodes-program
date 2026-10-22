@@ -101,9 +101,9 @@ PUSH0 PUSH0 REVERT
 
 | Label  | Byte offset |
 |--------|-------------|
-| `loop` | `0x18`      |
-| `end`  | `0x2e`      |
-| `fail` | `0x37`      |
+| `loop` |   `0x18`    |
+| `end`  |   `0x2e`    |
+| `fail` |   `0x37`    |
 
 ## Test it yourself
 
