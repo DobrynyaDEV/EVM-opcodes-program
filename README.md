@@ -61,7 +61,8 @@ Each check inverts a flag with `ISZERO`, because `JUMPI` only jumps when its con
 
 ### 3. Sum and average
 
-The loop keeps `[i, sum, N]` on the stack, with the counter `i` going from N down to 1, so the exit condition is just `i == 0` (easier than incrementing `i`):
+The loop keeps `[i, sum, N]` on the stack, with the counter `i` going from N down to 1,
+so the exit condition is just `i == 0` (easier than incrementing `i`):
 
 ```asm
 PUSH0 DUP2
