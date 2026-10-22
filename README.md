@@ -33,7 +33,7 @@ The program keeps all values on the stack.
 ### 1. Read N
 
 ```asm
-PUSH0 CALLDATALOAD            // [N]
+PUSH0 CALLDATALOAD
 ```
 
 offset = 0.
